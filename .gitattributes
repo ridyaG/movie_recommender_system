@@ -1,1 +1,2 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
+/Users/ridyagupta/PycharmProjects/movie_recommender_system_1/similarity.pkl filter=lfs diff=lfs merge=lfs -text
