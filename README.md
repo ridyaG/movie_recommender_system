@@ -1,22 +1,33 @@
-# movie_recommender_system
-A Content-based movie recommendation system that recommends movies to a user by using the similarity of movies.
-This recommender system recommends movies based on their description or features.
-A useful application of machine learning in the Media/communication Industry
+# 🎬 Movie Recommender System  
 
-The data set used for this notebook is the 1M ratings data set from MovieLens. This contains 1M ratings of movies from 7120 movies and 14,025 Users. This data set includes:
+A **Content-Based Movie Recommendation System** that suggests movies based on their similarity in description or features. This system utilizes **machine learning** to provide personalized recommendations, making it a valuable tool in the **Media/Communication Industry**.  
 
-movieId
-userId
-rating
-In addition a data set of the movies includes the movie name and genres.
+## 📊 Dataset Used  
+The system is built using the **1M ratings dataset from MovieLens**, which includes:  
+- **1M movie ratings**  
+- **7,120 movies**  
+- **14,025 users**  
 
-movieId
-title
-genres
+### 📂 Data Structure  
+1. **Ratings Dataset:**  
+   - `movieId` (Unique ID for each movie)  
+   - `userId` (Unique ID for each user)  
+   - `rating` (User rating for the movie)  
 
-# Required Tools
-Keras
-Scipy
-Numpy
-Pandas
-python 3
+2. **Movies Dataset:**  
+   - `movieId` (Unique ID for each movie)  
+   - `title` (Movie name)  
+   - `genres` (Movie genres)  
+
+## 🔧 Required Tools  
+To run this project, install the following dependencies:  
+- **Python 3**  
+- **Keras**  
+- **Scipy**  
+- **Numpy**  
+- **Pandas**  
+
+This project demonstrates the **power of machine learning** in recommending personalized movie choices based on content similarity. 🚀  
+
+### 💡 Want to improve it?  
+Feel free to **contribute** or suggest enhancements! 😊  
